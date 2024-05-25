@@ -36,4 +36,12 @@
     .contact {
       margin-left: 40px;
     }
+
+
+  }
+
+  p {
+    a {
+      color: #8d6139;
+    }
   }

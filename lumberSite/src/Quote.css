@@ -1,0 +1,54 @@
+
+
+.quote {
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    flex-direction: column;
+  }
+  
+  /* Style the quote text */
+  .quote p {
+    margin: 0;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: #dfdcd9;
+    font-family: 'Georgia', serif;
+  }
+  
+  /* Style the author name */
+  .quote p:last-child {
+    font-style: italic;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .quote {
+      height: 30vh;
+    }
+    .quote p {
+      font-size: 1.2rem;
+    }
+    .quote p:last-child {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .quote {
+      height: 40vh;
+    }
+    .quote p {
+      font-size: 1rem;
+    }
+    .quote p:last-child {
+      font-size: 0.8rem;
+    }
+  }

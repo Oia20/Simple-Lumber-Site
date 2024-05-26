@@ -12,7 +12,7 @@
 
     .about-image {
     max-width: none;
-    width: 90%;
+    width: 60%;
     border-radius: 8px;
     border: 3px solid #886330;
     box-shadow: 5px 10px 8px #5B3B1E;
@@ -22,7 +22,7 @@
   }
   @media screen and (min-width: 1100px) {
   .about-image {
-    max-width: 40%;
+    max-width: 20%;
     height: auto;
     border-radius: 8px;
     border: 3px solid #886330;
@@ -59,6 +59,7 @@
     margin: auto;
     animation: glow 2s infinite alternate;
     margin-bottom: 5px;
+    margin-top: 40px;
 }
 
 @keyframes glow {

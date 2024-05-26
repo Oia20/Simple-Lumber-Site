@@ -6,7 +6,7 @@ const Footer = () => {
   const currentYear = now.getFullYear();
   return (
     <footer className="footer">
-      <p>&copy; {currentYear} Rob Shaw Lumber</p>
+      <p>&copy; {currentYear} CraftForte</p>
     </footer>
   );
 };

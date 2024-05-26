@@ -1,13 +1,13 @@
 .contact {
     background-color: rgb(46, 25, 10);
     margin-left:5%;
+    padding-top: 10px;
   }
   
   .contact-content {
     display: flex;
 
     flex-direction: row;
-
   }
   
   .contact h2 {

@@ -7,7 +7,7 @@ const Contact = () => {
         <h2>Get In Touch</h2>
 
       <div className="contact-content">
-        <p><strong>Email:</strong> contact@lumberbusiness.com</p>
+        <p><strong>Email:</strong> michaelcraftforte@gmail.com</p>
       </div>
     </section>
   );

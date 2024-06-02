@@ -11,8 +11,6 @@ const About = () => {
         <p>We are a small, family-owned lumber business dedicated to providing high-quality lumber for all your building projects. We are committed to excellent customer service and fair prices.</p>
       </div>
     </section>
-    <div className='divider'></div>
-
     </>
   );
 };
